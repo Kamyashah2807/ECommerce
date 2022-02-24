@@ -1,0 +1,169 @@
+.ProductDetails {
+    background-color: white;
+    width: 100vw;
+    max-width: 100%;
+    padding: 6vmax;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.ProductDetails > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2vmax;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.ProductDetails > div:last-child {
+    align-items: flex-start;
+}
+
+.CarouselImage {
+    width: 20vmax;
+    display: block;
+}
+
+.detailBlock-1 > h2 {
+    color: rgb(54, 55, 55);
+    font: 600 1.5vmax "Roboto";
+}
+
+.detailBlock-1 > p {
+    color: rgb(54, 55, 55, 0.555);
+}
+
+.detailBlock-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    width: 70%;
+    padding: 1vmax, 0;
+}
+
+.detailBlock-2 > span {
+    color: rgb(54, 55, 55, 0.555);
+    font: 200 1vmax "Roboto";
+}
+
+.detailBlock-3 {
+    width: 100%;
+}
+
+.detailBlock-3 > h1 {
+    color: rgba(17, 17, 17, 0.987);
+    font: 400 1.8vmax "Roboto";
+    margin: 1vmax 0;
+}
+
+.detailBlock-3-1 {
+    display: flex;
+    align-items: center;
+}
+
+.detailBlock-3-1-1 > button {
+    border: none;
+    background-color: darkslategray;
+    padding: 0.5vmax;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+
+.detailBlock-3-1-1 > button :hover {
+    background-color: lightblue;
+}
+
+.detailBlock-3-1-1 > input {
+    border: none;
+    padding: 0.5vmax;
+    width: 1vmax;
+    text-align: center;
+    outline: none;
+    color: cadetblue;
+}
+
+.detailBlock-3-1 > button:last-child {
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    transition: all 0.5s;
+    background-color: tomato;
+    font: 500 1vmax "Roboto";
+    border-radius: 15px;
+    padding: 0.5vmax 2vmax;
+    margin: 1vmax;
+    outline-offset: 0mm;
+}
+
+.detailBlock-3 > p {
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    padding: 1vmax 0;
+    color: rgba(0,0,0,0.987);
+    font: 400 1vmax "Roboto";
+    margin: 1vmax 0;
+}
+
+.detailBlock-4 {
+    color: rgba(0, 0, 0, 0.987);
+    font: 500 1.5vmax "sans-serif";
+}
+
+.detailBlock-4 > p {
+    color: rgba(0, 0, 0, 0.235);
+    font: 500 1.2vmax "Roboto";
+}
+
+.reviews {
+    display: flex;
+    overflow: auto;
+}
+
+.reviewHeading {
+    color: black;
+    font: 500 1.5vmax "Roboto";
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    padding: 1vmax;
+    width: 20vmax;
+    margin: auto;
+    margin-bottom: 4vmax;
+}
+
+.reviewCard {
+    flex: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.235);
+    border-bottom: 1px solid rgba(56, 56, 56, 0.205);
+    width: 30vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vmax;
+    padding: 3vmax;
+}
+
+.reviewCard > img {
+    width: 5vmax;
+}
+
+.reviewCard > p {
+    color: rgba(0,0,0,0.987);
+    font: 600 1vmax "Roboto";
+}
+
+.reviewCard > span {
+    color: rgba(0, 0, 0, 0.235);
+    font: 300 0.8vmax cursive;
+}
+
+.noReviews {
+    font: 400 1.5vmax "Gill Sans";
+    text-align: center;
+    color: rgba(0, 0, 0, 0.536);
+}
